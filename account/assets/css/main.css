@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+header { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+    background-color: rgb(41, 42, 54);
+} 
+
+a {
+    text-decoration: none;
+}
+
+body {
+    align-items: center;
+    justify-content: center;
+    font-family: Roboto;
+    color: white;
+    background-color: rgb(255, 255, 255);
+}
+
+form a {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none; /* Убираем маркеры */
+    display: inline;
+    font-family: Roboto;
+    color: white;
+}
+
+.menu-navigation li { 
+    color: white;
+    margin-right: 76px;
+    float: right;
+    display: flex;
+    justify-content: space-between;
+}
+
+p {
+    margin: 10px 0;
+    color: rgb(230, 230, 230);
+    font-family: Roboto;
+    margin-top: 15px;
+}
+
+.register-form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin-left: 750px;
+    margin-right: auto;
+    margin-top: 350px;
+}
+
+.bg-profile {
+    background-color: tomato;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+form img {
+    width: 100px;
+    height: 100px;
+}
+
+input {
+    margin: 10px 0;
+    padding: 10px;
+    border: unset;
+    border-bottom: 2px solid #e3e3e3;
+    outline: none;
+}
+
+button {
+    padding: 10px;
+    background: #ffffff;
+    border: unset;
+    cursor: pointer;
+}
+
+.error {
+    border-bottom: 2px solid #ff4332;
+}
+
+.msg {
+    border: 2px solid #085eff;
+    border-radius: 3px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.none {
+    display: none;
+}
+
+.logout {
+    color: #a1a1a1;
+    margin-top: 600px;
+}
+
+.nav-profile-container {
+    float: left;
+    width: 242.4px;
+    height: 100vh;
+    background-color: rgb(41, 42, 54);
+}
+
+.logo-white img {
+    margin-top: 10px;
+    height: 75px;
+    margin-left: -25px;
+}
+
+.logo-white {
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.back-to-index {
+    margin-left: 20px;
+    color: white;
+}
+
+.usermoney {
+    color: rgb(255, 255, 255);
+    margin-right: 50px;
+    font-family: Roboto;
+    font-weight: 500;
+}
+
+.back-to-index a {
+    color: rgb(167, 167, 167);
+    font-family: Roboto;
+    font-weight: 600;
+}

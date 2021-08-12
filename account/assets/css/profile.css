@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    align-items: center;
+    justify-content: center;
+    font-family: Roboto;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+
+form a {
+    color: #0072fe;
+    font-weight: 500;
+    font-size: 15px
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none; /* Убираем маркеры */
+    display: inline;
+    font-family: Roboto;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.register-form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin-left: 750px;
+    margin-right: auto;
+    margin-top: 1px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+}
+
+.nav-menu-left {
+    margin-top: 40px;
+}
+
+form img {
+    width: 100px;
+    height: 100px;
+}
+
+input {
+    margin: 10px 0;
+    padding: 10px;
+    border: unset;
+    border-bottom: 2px solid #e3e3e3;
+    outline: none;
+}
+
+button {
+    padding: 10px;
+    background: #0072fe;
+    color: rgb(255, 255, 255);
+    border: unset;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.error {
+    border-bottom: 2px solid #ff4332;
+}
+
+.msg {
+    border: 2px solid #0072fe;
+    border-radius: 3px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.none {
+    display: none;
+}
+
+.logout {
+    color: #a1a1a1;
+    margin-top: 600px;
+}
+
+.logotype-profile {
+    margin-left: 850px;
+    margin-top: 280px;
+    margin-bottom: 50px;
+}
